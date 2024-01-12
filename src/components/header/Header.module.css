@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+header {
+    width: 100%;
+    background-image: linear-gradient( 111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+    box-shadow: 0 0 30px rgba(255, 69, 0, 0.7);
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.divLogo {
+    display: flex;
+}
+
+.logo {
+    width: 70px;
+    margin: 7px 20px;
+    border-radius: 50px;
+    border: solid 3px orangered;
+}
+
+.title {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 40px;
+}
+
+.divSubtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 20px;
+    padding: 9px;
+}
+
+@media(max-width: 840px) {
+    .title {
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 23px;
+    }
+    .divSubtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 10px;
+        padding: 9px;
+    }
+}
+
+@media(max-width: 586px) {
+    .title {
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .divSubtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 7px;
+    }
+    .logo {
+        width: 50px;
+        margin: 1px 7px;
+        border-radius: 40px;
+        border: solid 2px orangered;
+    }
+}

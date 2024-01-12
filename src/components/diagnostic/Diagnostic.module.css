@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+main {
+    width: 100%;
+}
+
+.divTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.logoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logoTitle .logoIcon {
+    width: 200px;
+    height: 200px;
+    border: solid 1px orangered;
+    border-radius: 50%;
+}
+
+.divTitle .title {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 20px;
+}
+
+.buttonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonArea .divContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonArea .divContainer .button {
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    border: solid 3px orangered;
+    background-color: black;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.buttonArea .divContainer .button:hover {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+.buttonArea .divContainer .img {
+    width: 100px;
+    border-radius: 30%;
+    height: 100px;
+    border: solid 2px orangered;
+    margin: 1px 10px 1px
+}
+
+.divButtonFrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.divButtonFrase .buttonFrase {
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    border: solid 3px orangered;
+    background-color: aliceblue;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.divButtonFrase .buttonFrase:hover {
+    background-color: rgb(19, 166, 177);
+}
+
+.divFrase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    background-color: aliceblue;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    line-height: 150%;
+}
+
+.divFrase .frase {
+    font-family: sans-serif;
+    padding: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@media(max-width: 586px) {
+    .logoTitle .logoIcon {
+        width: 100px;
+        height: 100px;
+        border: solid 1px orangered;
+        border-radius: 50%;
+    }
+    .divTitle .title {
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 10px;
+    }
+    .divTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .buttonArea .divContainer .img {
+        width: 70px;
+        border-radius: 30%;
+        height: 70px;
+        border: solid 2px orangered;
+        margin: 1px 10px 1px
+    }
+    .buttonArea .divContainer .button {
+        border-radius: 30px;
+        width: 80px;
+        height: 60px;
+        margin: 10px;
+        border: solid 3px orangered;
+        background-color: black;
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    .divButtonFrase .buttonFrase {
+        border-radius: 30px;
+        width: 100px;
+        height: 60px;
+        margin: 10px;
+        border: solid 3px orangered;
+        background-color: aliceblue;
+        font-family: 'Bungee Spice', sans-serif;
+        font-size: 6px;
+        cursor: pointer;
+    }
+    .divButtonFrase {
+        margin: 6px;
+    }
+    .divFrase {
+        width: 300px;
+    }
+    .divFrase .frase {
+        font-size: 15px;
+        padding: 6px;
+        font-weight: bolder;
+    }
+}
